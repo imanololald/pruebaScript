@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\imanol.olalde\\source\\repos\\PBI Auto\\PBI Auto\\PBI Auto.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\imanol.olalde\\source\\repos\\PBI Auto\\PBI Auto\\PBI Auto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\imanol.olalde\\source\\repos\\PBI Auto\\PBI Auto\\PBI Auto.csproj",
+        "projectName": "PBI Auto",
+        "projectPath": "C:\\Users\\imanol.olalde\\source\\repos\\PBI Auto\\PBI Auto\\PBI Auto.csproj",
+        "packagesPath": "C:\\Users\\imanol.olalde\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\imanol.olalde\\source\\repos\\PBI Auto\\PBI Auto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\imanol.olalde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.8.2, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.52.0, )"
+            },
+            "Microsoft.Identity.Client.Extensions.Msal": {
+              "target": "Package",
+              "version": "[2.28.0, )"
+            },
+            "Microsoft.PowerBI.Api": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "Microsoft.Rest.ClientRuntime": {
+              "target": "Package",
+              "version": "[2.3.24, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
